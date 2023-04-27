@@ -19,7 +19,16 @@
 
 
 <p>revers commit</p>
+<button>click</button>
 
 </body>
-<script></script>
+<script>
+	$("p").click(function{
+		$(this).css('color','red');
+	});
+	var arr=[];
+	$('button').click(function{
+		arr.push('data');
+	});
+</script>
 </html>
